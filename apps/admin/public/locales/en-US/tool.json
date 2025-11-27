@@ -1,0 +1,14 @@
+{
+  "cancel": "Cancel",
+  "confirmReboot": "Confirm Reboot",
+  "confirmSystemReboot": "Confirm System Reboot",
+  "newVersionAvailable": "New Version Available",
+  "rebootDescription": "Are you sure you want to reboot the system? This action cannot be undone.",
+  "rebooting": "Rebooting...",
+  "refreshLogs": "Refresh Logs",
+  "serverVersion": "Server Version",
+  "systemLogs": "System Logs",
+  "systemReboot": "System Reboot",
+  "systemServices": "System Services",
+  "webVersion": "Web Version"
+}
