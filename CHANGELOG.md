@@ -19,6 +19,20 @@ This document records all notable changes to ShadCN Admin.
 ---
 
 
+## [1.2.2](https://github.com/perfect-panel/frontend/compare/v1.2.1...v1.2.2) (2025-12-16)
+
+### 🐛 Bug Fixes / 问题修复
+
+* add skipErrorHandler option to getModuleConfig for improved error handling ([3a37e74](https://github.com/perfect-panel/frontend/commit/3a37e74e71c07f15fb556df28e865b8843b4b885))
+* replace anchor tags with Link components for improved routing in user subscription and footer ([227e922](https://github.com/perfect-panel/frontend/commit/227e922958d80d1bf5650e96c30c1359015133f0))
+* update color variables for improved theme consistency in globals.css ([b559613](https://github.com/perfect-panel/frontend/commit/b55961395f051055c29e60b292b739ebecfb5d9e))
+* update LoadingBar color to primary for better visibility in navigation progress ([46cbdea](https://github.com/perfect-panel/frontend/commit/46cbdeafd4d4f0c6a31b63fbd0128f7d920be632))
+* update logout redirection URL to use hash-based routing ([6ca8109](https://github.com/perfect-panel/frontend/commit/6ca8109251ef3f7c76b0649ba6dba35cac4b6893))
+
+### ♻️ Code Refactoring / 代码重构
+
+* update Docker image references from ghcr.io to ppanel for backend setup in documentation ([c76a09c](https://github.com/perfect-panel/frontend/commit/c76a09c9d6996f2ee550f6308054cb8407703146))
+
 ## [1.2.1](https://github.com/perfect-panel/frontend/compare/v1.2.0...v1.2.1) (2025-12-12)
 
 ### 🐛 Bug Fixes / 问题修复
