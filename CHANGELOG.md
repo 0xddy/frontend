@@ -19,6 +19,29 @@ This document records all notable changes to ShadCN Admin.
 ---
 
 
+## [1.3.0](https://github.com/perfect-panel/frontend/compare/v1.2.4...v1.3.0) (2025-12-29)
+
+### ✨ Features / 新功能
+
+* Add original price display option and enhance inventory messages in subscription components ([543a7b9](https://github.com/perfect-panel/frontend/commit/543a7b9eb9b2cd278a70f668b0a0e0e9e261fe57))
+* Added localized support for user subscription and deletion status, and optimized the subscription form and user interface. ([9f95cec](https://github.com/perfect-panel/frontend/commit/9f95cec876c9ac8bf00a6ca12a5c40243c7171af))
+* Added reset and pause subscription functionality, and updated the status display. ([bc451ee](https://github.com/perfect-panel/frontend/commit/bc451eea16b51f1ab81b6cacf65201886866e1cc))
+* Added the option to restore subscription, and updated the relevant description and confirmation information. ([5f5c339](https://github.com/perfect-panel/frontend/commit/5f5c33987e54533c5348223b3cebe31aef91aa25))
+* Enhance DatePicker component with clear button and improved value handling ([b27b928](https://github.com/perfect-panel/frontend/commit/b27b9287be0eb26fe5d5189b618a32db340c506c))
+* Refactor SubscriptionForm layout for improved readability and maintainability ([f432ba0](https://github.com/perfect-panel/frontend/commit/f432ba06f9d3a86ec00bfd316d1c020ddf779de6))
+* Update API proxy target to use environment variable for improved configurability ([8d514df](https://github.com/perfect-panel/frontend/commit/8d514dfd8f0a8fb9acc97a288addd1b1cbc882b8))
+* Update queryKey structure in Purchase and Renewal components for improved order creation ([9559e00](https://github.com/perfect-panel/frontend/commit/9559e003b7821303f7d0ac7f4da5fae4bf1ccad4))
+* Update Vite configuration to load environment variables for improved API proxy setup ([d36a2c9](https://github.com/perfect-panel/frontend/commit/d36a2c902b7943441282278009c5e5210d30c746))
+
+### 🐛 Bug Fixes / 问题修复
+
+* Replace tag removal icon with a button for better accessibility and event handling ([3751f64](https://github.com/perfect-panel/frontend/commit/3751f64f73cd70eaddd44cb650dd38949f0ca069))
+* Uncomment navigation to dashboard for authenticated users ([4d15b2b](https://github.com/perfect-panel/frontend/commit/4d15b2b6fc8f0d178c7c749aa9e1d9826bb706f8))
+
+### 📚 Documentation / 文档更新
+
+* Update default administrator account information and security recommendations in installation guides ([7279275](https://github.com/perfect-panel/frontend/commit/7279275532ad0b73994ffe5cf2e4c2f8dabc280b))
+
 ## [1.2.4](https://github.com/perfect-panel/frontend/compare/v1.2.3...v1.2.4) (2025-12-28)
 
 ### 🐛 Bug Fixes / 问题修复
