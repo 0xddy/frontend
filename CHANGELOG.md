@@ -19,6 +19,12 @@ This document records all notable changes to ShadCN Admin.
 ---
 
 
+## [1.3.3](https://github.com/perfect-panel/frontend/compare/v1.3.2...v1.3.3) (2025-12-29)
+
+### 🐛 Bug Fixes / 问题修复
+
+* Update user_subscribe_id reference in RowMoreActions to use row.id for correct token reset and status toggle ([2156a7f](https://github.com/perfect-panel/frontend/commit/2156a7f1df52970b5ab0816dd1da5dc7cefc1dae))
+
 ## [1.3.2](https://github.com/perfect-panel/frontend/compare/v1.3.1...v1.3.2) (2025-12-29)
 
 ### 🐛 Bug Fixes / 问题修复
