@@ -44,10 +44,9 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://api.ppanel.dev",
+        target: import.meta.env.VITE_API_BASE_URL || "https://api.ppanel.dev",
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
   },
