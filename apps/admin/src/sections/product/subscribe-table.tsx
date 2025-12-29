@@ -211,7 +211,7 @@ export default function SubscribeTable() {
           cell: ({ row }) => {
             const inventory = row.getValue("inventory") as number;
             return inventory === -1 ? (
-              t("unlimited")
+              <Display type="number" unlimited value={0} />
             ) : (
               <Display type="number" unlimited value={inventory} />
             );
