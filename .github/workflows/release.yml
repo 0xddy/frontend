@@ -1,10 +1,12 @@
 name: Build and Release
 
 on:
-  push:
-    branches: [main, next, beta, develop]
-    paths-ignore:
-      - 'docs/**'
+  # 这里的 workflow_dispatch 表示允许要在 GitHub 界面上手动点击按钮触发
+  workflow_dispatch:
+    # (可选) 你可以在这里添加输入参数，例如发布版本类型等
+    # inputs:
+    #   tags:
+    #     description: 'Test scenario tags'  
 
 permissions:
   contents: write
@@ -27,6 +29,7 @@ jobs:
           path: |
             ~/.bun
             node_modules
+          # 注意：如果你使用的是二进制锁文件，这里应为 bun.lockb
           key: ${{ runner.os }}-bun-cache-${{ hashFiles('**/bun.lock') }}
           restore-keys: |
             ${{ runner.os }}-bun-cache-
